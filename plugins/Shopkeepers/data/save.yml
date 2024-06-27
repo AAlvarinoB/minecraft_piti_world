@@ -1,0 +1,108 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|3465
+'2':
+  uniqueId: ba5bccea-907b-437d-a3c3-e602065ca485
+  world: world
+  x: -254
+  y: 64
+  z: -73
+  yaw: 147.82222
+  type: sell
+  name: Robertico el pescador
+  object:
+    type: villager
+    baby: false
+    profession: FISHERMAN
+    villagerType: SNOW
+    villagerLevel: 1
+  owner uuid: e89bde7f-9415-36e5-9abc-1a9d47b2666d
+  owner: LittleFaner
+  chestx: -266
+  chesty: 68
+  chestz: -77
+  notifyOnTrades: false
+  offers:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Caught
+            on: "},{"italic":false,"color":"dark_gray","text":"6/17/2024"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Caught
+            by: "},{"italic":false,"color":"dark_gray","text":"LittleFaner"}],"text":""}'
+          enchants:
+            MENDING: 1
+            ARROW_DAMAGE: 3
+            DURABILITY: 3
+          Damage: 375
+          PublicBukkitValues:
+            toolstats:hash: f330bd5131c9e130057567263edec443bebb18520d1bd6a1473904016e6a9fed
+            toolstats:origin: 5i
+            toolstats:time-created: 1718600301573L
+            toolstats:owner: '[B;-24B,-101B,-34B,127B,-108B,21B,54B,-27B,-102B,-68B,26B,-99B,71B,-78B,102B,109B]'
+      price: 18
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: FISHING_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            LURE: 3
+            DURABILITY: 3
+          Damage: 59
+          PublicBukkitValues:
+            toolstats:hash: 21629c581425bbf82e6dfba1dcbd2862282a0f9c24503098dff71b79a46d508b
+            toolstats:origin: 5i
+            toolstats:time-created: 1719197625070L
+            toolstats:owner: '[B;-24B,-101B,-34B,127B,-108B,21B,54B,-27B,-102B,-68B,26B,-99B,71B,-78B,102B,109B]'
+      price: 5
+    '3':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            PROTECTION_PROJECTILE: 4
+      price: 5
+    '4':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DIG_SPEED: 4
+            LOYALTY: 3
+      price: 9
+    '5':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_DAMAGE: 4
+      price: 9
+    '6':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: SADDLE
+      price: 1
+  snapshots: []
