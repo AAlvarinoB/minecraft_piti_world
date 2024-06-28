@@ -106,3 +106,20 @@ data-version: 3|2|3465
         type: SADDLE
       price: 1
   snapshots: []
+'3':
+  uniqueId: 0444b071-8ea7-43f6-9e59-e85aa968bcc3
+  world: world
+  x: -265
+  y: 56
+  z: -92
+  yaw: 357.5632
+  type: admin
+  name: Juancho
+  object:
+    type: villager
+    baby: false
+    profession: FARMER
+    villagerType: SWAMP
+    villagerLevel: 2
+  recipes: {}
+  snapshots: []

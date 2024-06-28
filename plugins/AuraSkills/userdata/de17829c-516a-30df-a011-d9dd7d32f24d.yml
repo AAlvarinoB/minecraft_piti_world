@@ -1,39 +1,39 @@
 uuid: de17829c-516a-30df-a011-d9dd7d32f24d
 skills:
   auraskills/enchanting:
-    level: 2
-    xp: 225.0
+    level: 3
+    xp: 233.20000000000002
   auraskills/excavation:
     level: 3
-    xp: 854.070000000014
+    xp: 860.340000000014
   auraskills/defense:
-    level: 4
-    xp: 595.5580320835127
+    level: 5
+    xp: 117.93303208351175
   auraskills/mining:
     level: 7
-    xp: 1411.78999999993
+    xp: 4255.549999999946
   auraskills/fishing:
-    level: 6
-    xp: 856.5
+    level: 8
+    xp: 3087.0
   auraskills/archery:
     level: 0
-    xp: 0.0
+    xp: 7.0
   auraskills/farming:
     level: 4
-    xp: 933.5500000000039
+    xp: 1645.2500000000148
   auraskills/foraging:
-    level: 5
-    xp: 2283.619999999992
+    level: 6
+    xp: 1222.7399999999957
   auraskills/fighting:
-    level: 4
-    xp: 1110.1000000000056
+    level: 5
+    xp: 1195.4000000000099
   auraskills/alchemy:
     level: 0
     xp: 60.0
   auraskills/agility:
     level: 7
-    xp: 2120.681200000001
-mana: 32.0
+    xp: 4973.390400000001
+mana: 34.0
 action_bar:
   idle: true
 trait_modifiers:
@@ -48,7 +48,7 @@ trait_modifiers:
   '2':
     name: foraging_luck_ability
     trait: auraskills/foraging_luck
-    value: 10.0
+    value: 20.0
   '3':
     name: fishing_luck_ability
     trait: auraskills/fishing_luck
@@ -59,6 +59,6 @@ trait_modifiers:
     value: 10.0
 ability_data:
   auraskills/first_strike:
-    counter: 26
+    counter: 48
   auraskills/xp_convert:
-    xp: 19.736599999999864
+    xp: 16.670800000000337

@@ -220,6 +220,7 @@
       "rotten_flesh": "2024-06-13 00:44:23 +0000",
       "suspicious_stew": "2024-06-16 02:17:41 +0000",
       "golden_carrot": "2024-06-15 16:46:10 +0000",
+      "cooked_chicken": "2024-06-28 01:09:17 +0000",
       "cooked_salmon": "2024-06-22 02:16:36 +0000",
       "carrot": "2024-06-17 21:22:05 +0000"
     },
@@ -2067,6 +2068,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cow": "2024-06-28 02:22:58 +0000",
       "minecraft:wolf": "2024-06-15 00:32:56 +0000"
     },
     "done": false
@@ -3760,6 +3762,78 @@
   "minecraft:nether/create_full_beacon": {
     "criteria": {
       "beacon": "2024-06-26 03:58:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_green_dye": "2024-06-27 23:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-06-27 23:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-06-27 23:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2024-06-27 23:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-06-27 23:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2024-06-27 23:48:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2024-06-28 03:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-06-28 03:24:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2024-06-28 03:35:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2024-06-28 03:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2024-06-28 02:28:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-06-28 03:24:08 +0000"
     },
     "done": true
   },
