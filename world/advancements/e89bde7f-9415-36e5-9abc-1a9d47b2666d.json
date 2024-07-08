@@ -7,16 +7,26 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2024-06-30 19:49:56 +0000",
       "minecraft:taiga": "2024-06-12 23:34:03 +0000",
+      "minecraft:frozen_river": "2024-06-29 01:59:55 +0000",
       "minecraft:birch_forest": "2024-06-16 03:30:49 +0000",
       "minecraft:windswept_hills": "2024-06-13 00:04:18 +0000",
       "minecraft:beach": "2024-06-16 03:33:47 +0000",
       "minecraft:river": "2024-06-12 23:48:39 +0000",
       "minecraft:snowy_plains": "2024-06-25 21:33:57 +0000",
+      "minecraft:stony_shore": "2024-06-30 20:14:36 +0000",
       "minecraft:dripstone_caves": "2024-06-12 23:33:49 +0000",
       "minecraft:snowy_taiga": "2024-06-13 00:03:32 +0000",
       "minecraft:cold_ocean": "2024-06-16 03:33:49 +0000",
       "minecraft:forest": "2024-06-12 22:54:53 +0000",
+      "minecraft:lush_caves": "2024-06-30 19:03:56 +0000",
+      "minecraft:ice_spikes": "2024-06-29 01:59:31 +0000",
+      "minecraft:frozen_ocean": "2024-06-29 01:56:09 +0000",
+      "minecraft:deep_frozen_ocean": "2024-06-29 02:02:34 +0000",
+      "minecraft:ocean": "2024-06-30 19:10:20 +0000",
+      "minecraft:old_growth_spruce_taiga": "2024-06-30 19:50:22 +0000",
+      "minecraft:deep_dark": "2024-06-30 19:30:45 +0000",
       "minecraft:meadow": "2024-06-12 23:32:31 +0000",
       "minecraft:plains": "2024-06-12 23:30:17 +0000"
     },
@@ -778,6 +788,7 @@
       "minecraft:evoker": "2024-06-28 00:00:06 +0000",
       "minecraft:phantom": "2024-06-24 21:06:01 +0000",
       "minecraft:witch": "2024-06-27 23:59:32 +0000",
+      "minecraft:piglin": "2024-06-30 19:17:39 +0000",
       "minecraft:enderman": "2024-06-26 01:22:10 +0000",
       "minecraft:vex": "2024-06-28 00:00:30 +0000",
       "minecraft:zombie": "2024-06-13 02:03:30 +0000",
@@ -2471,15 +2482,21 @@
     },
     "done": true
   },
-  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
-    "criteria": {
-      "lightning_rod_with_villager_no_fire": "2024-06-27 23:48:01 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
     "criteria": {
       "has_coal_ore": "2024-06-27 22:21:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-06-27 22:21:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2024-06-27 23:48:01 +0000"
     },
     "done": true
   },
@@ -2489,9 +2506,166 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+  "minecraft:recipes/building_blocks/polished_deepslate": {
     "criteria": {
-      "has_coal_ore": "2024-06-27 22:21:33 +0000"
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-06-29 02:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-06-30 19:04:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-06-30 19:04:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2024-06-30 19:06:38 +0000",
+      "minecraft:soul_sand_valley": "2024-06-30 19:04:53 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-06-30 19:07:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-06-30 19:13:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2024-06-30 19:15:09 +0000"
     },
     "done": true
   },
